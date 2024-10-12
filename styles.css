@@ -1,0 +1,122 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.testimonial-wrapper {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+.testimonial-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-item {
+    background-color: #fafafa;
+    color: #333;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.character-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.character-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.large-card {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border: 2px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: #333;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.large-card .character-info img {
+    width: 80px;
+    height: 80px;
+}
+
+.character-details {
+    margin-left: 20px;
+}
+
+.rating {
+    font-size: 20px;
+    color: gold;
+}
+
+.testimonial-carousel {
+    background-color: #fafafa;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.carousel-controls span {
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+}
+
+.carousel-images {
+    display: flex;
+    gap: 5px;
+}
+
+.carousel-images img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-name {
+    margin-top: 10px;
+    font-weight: bold;
+}
